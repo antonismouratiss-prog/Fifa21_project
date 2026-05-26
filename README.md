@@ -1,10 +1,10 @@
-# FIFA 21 Player Data — ETL Pipeline on Databricks
+# FIFA 21 Player Data — ELT Pipeline on Databricks
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
 ![Delta Lake](https://img.shields.io/badge/Delta_Lake-003366?style=flat&logo=delta&logoColor=white)
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat&logo=apachespark&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
-End-to-end ETL pipeline for FIFA 21 player data built on Databricks using the Medallion Architecture (Bronze → Silver → Gold). The pipeline ingests raw messy data, applies a series of cleaning and transformation steps, and produces analytical aggregations visualised in a Databricks SQL Dashboard.
+End-to-end ELT pipeline for FIFA 21 player data built on Databricks using the Medallion Architecture (Bronze → Silver → Gold). The pipeline ingests raw messy data, applies a series of cleaning and transformation steps, and produces analytical aggregations visualised in a Databricks SQL Dashboard.
 
 ---
 
@@ -49,7 +49,7 @@ Kaggle Source (CSV)
 ## Project Structure
 
 ```
-fifa21-etl-databricks/
+fifa21-ELT-databricks/
 │
 ├── README.md
 ├── notebooks/
